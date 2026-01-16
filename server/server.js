@@ -19,11 +19,12 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://mern-auth-backend-ruby-rho.vercel.app"
+      "https://mern-auth-frontend-xi.vercel.app",
     ],
     credentials: true,
   })
 );
+
 
 
 app.get("/", (req, res) => res.send("API Working"));
