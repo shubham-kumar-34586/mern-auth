@@ -12,3 +12,5 @@ const Home = () => {
 };
 
 export default Home;
+
+// will update my readme tommorow.
